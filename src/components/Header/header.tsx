@@ -4,8 +4,8 @@ import Link from 'next/link';
 export const Header: React.FC = () => {
   return (
     <header className="bg-white">
-      <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-24 items-center justify-between">
+      <div className="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8 border-b border-gray-100">
+        <div className="flex h-20 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
             <Link className="block" href="/">
               <span className="sr-only">Home</span>

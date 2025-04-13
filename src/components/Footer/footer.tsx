@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const Footer: React.FC = () => {
   return (
     <footer className="bg-white">
-      <div className="mx-auto max-w-screen-xl px-4 pt-4 pb-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-screen-2xl px-4 pt-4 pb-4 sm:px-6 lg:px-8">
         <div className="mt-16 grid grid-cols-1 gap-8 border-t border-gray-100 pt-4 md:grid-cols-4 lg:grid-cols-6">
           <div className="text-center sm:text-left">
             <p className="text-lg font-medium text-gray-900">关于合珀生物</p>
@@ -102,8 +102,6 @@ export const Footer: React.FC = () => {
                   招贤纳士
                 </Link>
               </li>
-
-              
             </ul>
           </div>
 
@@ -119,7 +117,6 @@ export const Footer: React.FC = () => {
                   联系我们
                 </Link>
               </li>
-
 
               <li>
                 <Link
@@ -143,13 +140,21 @@ export const Footer: React.FC = () => {
             <p className="text-lg text-gray-900 font-bold">服务热线</p>
 
             <div className="mx-auto mt-6 max-w-md sm:ms-0">
-              <Link href="tel:13386020808" className="text-center text-xl leading-relaxed text-gray-900 ltr:sm:text-left rtl:sm:text-right">
+              <Link
+                href="tel:13386020808"
+                className="text-center text-xl leading-relaxed text-gray-900 ltr:sm:text-left rtl:sm:text-right"
+              >
                 13386020808
               </Link>
             </div>
 
-            <div className='flex gap-3 mt-2'>
-              <Image src="/images/wechat.jpg" alt="WeChat" width={120} height={120} />
+            <div className="flex gap-3 mt-2">
+              <Image
+                src="/images/wechat.jpg"
+                alt="WeChat"
+                width={120}
+                height={120}
+              />
             </div>
           </div>
         </div>
