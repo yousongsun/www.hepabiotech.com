@@ -1,0 +1,1 @@
+export { ProductNumber } from './productnumber';

@@ -1,1 +1,1 @@
-export { TextImage } from './textimage';
+export { TextImageRound, TextImageSquare, TextImageUpDown } from './textimage';

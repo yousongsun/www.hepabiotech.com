@@ -8,7 +8,7 @@ interface TextImageProps {
   imageUrl: string;
 }
 
-export const TextImage: React.FC<TextImageProps> = ({
+export const TextImageRound: React.FC<TextImageProps> = ({
   title,
   description,
   buttonText,
@@ -41,6 +41,62 @@ export const TextImage: React.FC<TextImageProps> = ({
         src={imageUrl}
         className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"
       />
+    </section>
+  );
+};
+
+export const TextImageSquare: React.FC<TextImageProps> = ({
+  title,
+  description,
+  buttonText,
+  buttonLink,
+  imageUrl,
+}) => {
+  return (
+    <section>
+      <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:gap-8">
+          <div>
+            <div className="max-w-lg md:max-w-none">
+              <h2 className="text-2xl font-semibold text-gray-900 sm:text-3xl">
+                {title}
+              </h2>
+
+              <p className="mt-4 text-gray-700">{description}</p>
+            </div>
+          </div>
+
+          <div>
+            <img src={imageUrl} className="rounded" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export const TextImageUpDown: React.FC<TextImageProps> = ({
+  title,
+  description,
+  buttonText,
+  buttonLink,
+  imageUrl,
+}) => {
+  return (
+    <section>
+      <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
+        <div className="flex flex-col items-center gap-8">
+          <div className="text-center">
+            <h2 className="text-2xl font-semibold text-gray-900 sm:text-3xl">
+              {title}
+            </h2>
+            <p className="mt-4 text-gray-700">{description}</p>
+          </div>
+          <div>
+            <img src={imageUrl} className="rounded" alt="" />
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

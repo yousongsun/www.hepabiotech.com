@@ -148,7 +148,7 @@ export const Footer: React.FC = () => {
               </Link>
             </div>
 
-            <div className="flex gap-3 mt-2">
+            <div className="flex gap-3 mt-2 justify-center sm:justify-start">
               <Image
                 src="/images/wechat.jpg"
                 alt="WeChat"

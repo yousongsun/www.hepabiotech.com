@@ -1,12 +1,12 @@
-import { About } from '@/components/About';
 import { Slide } from '@/components/Slide';
-import { TextImage } from '@/components/TextImage';
+import { TextImageRound } from '@/components/TextImage';
+import { ProductNumber } from '../Product';
 
 export const Home: React.FC = () => {
   return (
     <>
       <Slide />
-      <TextImage
+      <TextImageRound
         title="关于我们"
         description="欢迎来到
             HepaBiotech！我们致力于推动生物技术解决方案，为更健康的未来做出贡献。
@@ -16,6 +16,10 @@ export const Home: React.FC = () => {
         buttonLink="/about"
         imageUrl="https://images.unsplash.com/photo-1617155093730-a8bf47be792d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       />
+
+      <section className="py-12">
+        <ProductNumber />
+      </section>
     </>
   );
 };

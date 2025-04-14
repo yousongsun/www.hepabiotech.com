@@ -18,7 +18,7 @@ export const Header: React.FC = () => {
               <ul className="flex items-center gap-6 text-sm">
                 <li>
                   <Link
-                    className="text-gray-700 text-xl transition hover:text-[#02548d]"
+                    className="text-gray-700 text-xl transition hover:text-[#02548d] hover:underline hover:decoration-2 hover:underline-offset-8"
                     href="/"
                   >
                     首页
@@ -26,7 +26,7 @@ export const Header: React.FC = () => {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-700 text-xl transition hover:text-[#02548d]"
+                    className="text-gray-700 text-xl transition hover:text-[#02548d] hover:underline hover:decoration-2 hover:underline-offset-8"
                     href="/about"
                   >
                     关于合珀生物
@@ -35,7 +35,7 @@ export const Header: React.FC = () => {
 
                 <li>
                   <Link
-                    className="text-gray-700 text-xl transition hover:text-[#02548d]"
+                    className="text-gray-700 text-xl transition hover:text-[#02548d] hover:underline hover:decoration-2 hover:underline-offset-8"
                     href="/products"
                   >
                     产品与服务
@@ -44,7 +44,7 @@ export const Header: React.FC = () => {
 
                 <li>
                   <Link
-                    className="text-gray-700 text-xl transition hover:text-[#02548d]"
+                    className="text-gray-700 text-xl transition hover:text-[#02548d] hover:underline hover:decoration-2 hover:underline-offset-8"
                     href="/news"
                   >
                     新闻动态
@@ -53,7 +53,7 @@ export const Header: React.FC = () => {
 
                 <li>
                   <Link
-                    className="text-gray-700 text-xl transition hover:text-[#02548d]"
+                    className="text-gray-700 text-xl transition hover:text-[#02548d] hover:underline hover:decoration-2 hover:underline-offset-8"
                     href="/careers"
                   >
                     招贤纳士
@@ -62,7 +62,7 @@ export const Header: React.FC = () => {
 
                 <li>
                   <Link
-                    className="text-gray-700 text-xl transition hover:text-[#02548d]"
+                    className="text-gray-700 text-xl transition hover:text-[#02548d] hover:underline hover:decoration-2 hover:underline-offset-8"
                     href="/contact"
                   >
                     联系我们
