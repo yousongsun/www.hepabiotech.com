@@ -1,3 +1,4 @@
+import { Career } from '@/components/Career';
 import Image from 'next/image';
 export default function CareersPage() {
   return (
@@ -9,7 +10,8 @@ export default function CareersPage() {
         height={300}
         className="w-full h-60  md:h-92 object-cover"
       />
-      <h1>Careers</h1>
+
+      <Career />
     </>
   );
 }

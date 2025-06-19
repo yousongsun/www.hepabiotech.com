@@ -2,7 +2,7 @@ import type React from 'react';
 
 export const Contact: React.FC = () => {
   return (
-    <div className="max-w-2xl mx-auto p-8 bg-white rounded-2xl shadow-xl border border-gray-100">
+    <div className="max-w-7xl mx-auto p-8 bg-white rounded-2xl shadow-xl border border-gray-100">
       <h1 className="text-3xl font-extrabold mb-3 text-blue-800 tracking-tight">
         客户留言
       </h1>
