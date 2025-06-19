@@ -1,4 +1,5 @@
 import { Card } from '@/components/Card';
+import { NewsList } from '@/components/News';
 import Image from 'next/image';
 
 export default function NewsPage() {
@@ -12,9 +13,8 @@ export default function NewsPage() {
         className="w-full h-60  md:h-92 object-cover"
       />
 
-      <h1>News</h1>
-
-      <Card />
+      {/* <Card /> */}
+      <NewsList />
     </>
   );
 }

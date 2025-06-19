@@ -1,3 +1,4 @@
+import ProductList from '@/components/Product/productlist';
 import Image from 'next/image';
 
 export default function ProductsPage() {
@@ -11,7 +12,7 @@ export default function ProductsPage() {
         className="w-full h-60  md:h-92 object-cover"
       />
 
-      <h1>Products</h1>
+      <ProductList />
     </>
   );
 }
