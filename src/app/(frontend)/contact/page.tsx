@@ -1,3 +1,4 @@
+import { Contact } from '@/components/Contact';
 import Image from 'next/image';
 
 export default function ContactPage() {
@@ -11,7 +12,7 @@ export default function ContactPage() {
         className="w-full h-60  md:h-92 object-cover"
       />
 
-      <h1>Contact</h1>
+      <Contact />
     </>
   );
 }
