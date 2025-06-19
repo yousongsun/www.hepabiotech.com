@@ -173,7 +173,7 @@ export const Footer: React.FC = () => {
             target="_blank"
             rel="noreferrer"
           >
-            沪ICP备2025000001号-1
+            沪ICP备2025130643号
           </Link>
         </p>
       </div>
