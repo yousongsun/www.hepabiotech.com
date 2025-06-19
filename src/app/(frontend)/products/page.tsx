@@ -1,4 +1,4 @@
-import ProductList from '@/components/Product/productlist';
+import { ProductList } from '@/components/Product/productlist';
 import Image from 'next/image';
 
 export default function ProductsPage() {

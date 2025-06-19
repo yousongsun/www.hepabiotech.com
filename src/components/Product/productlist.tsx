@@ -24,7 +24,7 @@ const products = [
   },
 ];
 
-const ProductList: React.FC = () => {
+export const ProductList: React.FC = () => {
   return (
     <div className="max-w-5xl mx-auto py-10 px-4">
       <h1 className="text-3xl font-bold mb-8 text-center">产品列表</h1>
@@ -52,5 +52,3 @@ const ProductList: React.FC = () => {
     </div>
   );
 };
-
-export default ProductList;
